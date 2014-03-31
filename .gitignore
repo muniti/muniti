@@ -1,0 +1,34 @@
+src/*.exe
+src/Muniti
+src/Munitid
+src/test_Muniti
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.Muniti
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+Muniti-qt
+Muniti-Qt.app
+
+# Unit-tests
+Makefile.test
+Muniti-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
